@@ -2,10 +2,18 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: okke-formsma
+      url-base: https://github.com/okke-formsma 
   projects:
-    - name: zmk
+    - name: zephyr
       remote: zmkfirmware
-      revision: main
+      revision: v2.4.0+zmk-fixes
+      clone-depth: 1
+      import:
+      import: app/west.yml
+    - name: zmk
+      remote: okke-formsma
+      revision: mousekeys
       import: app/west.yml
   self:
     path: config
