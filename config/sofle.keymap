@@ -168,11 +168,11 @@
 //               |     |      |      |      |        |  |       |      |       |       |      |
             label = "<<< NAV";
             bindings = <
-&trans      &trans          &kp C_PREV      &kp C_PP        &kp C_NEXT      &kp N6                          &trans          &trans          &trans          &trans      &trans      &trans
+&trans      &kp N0          &kp N9          &kp N8          &kp N7          &kp N6                          &trans          &trans          &trans          &trans      &trans      &trans
 &trans      &trans          &kp HOME        &kp UP          &kp END         &kp Y                           &trans          &trans          &trans          &trans      &trans      &trans
 &kp CAPS    &trans          &kp LEFT        &kp DOWN        &kp RIGHT       &kp H                           &trans          &trans          &trans          &trans      &trans      &trans
 &trans      &kp LA(LEFT)    &kp LC(LEFT)    &none           &kp LC(RIGHT)   &kp ENTER       &trans  &trans  &trans          &trans          &trans          &trans      &trans      &trans
-                            &trans          &trans          &trans          &trans  &trans  &none   &none   &kp C_PP        &kp C_VOL_DN    &kp C_VOL_UP    
+                            &kp C_PREV      &kp C_PP        &kp C_NEXT      &trans          &trans  &none   &none           &kp C_PP        &kp C_VOL_DN    &kp C_VOL_UP
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
         };
@@ -204,11 +204,11 @@
         _REMOTE {
             label = "REMOTE";
             bindings = <
-&none   &kp F   &kp C_PREV          &kp C_PP            &kp C_NEXT  &kp LC(W)                               &none   &none   &none   &none   &none   &none
+&none   &kp F   &none               &none               &none       &kp LC(W)                               &none   &none   &none   &none   &none   &none
 &none   &none   &kp LC(LS(TAB))     &kp UP              &kp LC(TAB) &mwh SCROLL_UP                          &none   &none   &none   &none   &none   &none
 &none   &none   &kp LEFT            &kp DOWN            &kp RIGHT   &mwh SCROLL_DOWN                        &none   &none   &none   &none   &none   &none
 &none   &none   &none               &none               &none       &kp ENTER           &trans      &none   &none   &none   &none   &none   &none   &none
-                &kp C_AC_ZOOM_OUT   &kp C_AC_ZOOM_IN    &kp C_NEXT  &kp SPACE           &kp C_PP    &none   &none   &none   &none   &none
+                &kp C_PREV          &kp C_PP            &kp C_NEXT  &kp SPACE           &kp C_PP    &none   &none   &none   &none   &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
         };
