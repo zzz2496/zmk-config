@@ -6,6 +6,9 @@ if SHIELD_SOFLE_LEFT
 config ZMK_KEYBOARD_NAME
 	default "Sofle Left"
 
+config KERNEL_BIN_NAME
+	default "sofle_left"
+
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 	
@@ -15,6 +18,9 @@ if SHIELD_SOFLE_RIGHT
 
 config ZMK_KEYBOARD_NAME
 	default "Sofle Right"
+
+config KERNEL_BIN_NAME
+	default "sofle_right"
 
 endif
 
