@@ -40,10 +40,13 @@
 #undef MOVE_DOWN
 #undef MOVE_LEFT
 #undef MOVE_RIGHT
-#define MOVE_UP MOVE_VERT(-1000)
-#define MOVE_DOWN MOVE_VERT(1000)
-#define MOVE_LEFT MOVE_HOR(-1000)
-#define MOVE_RIGHT MOVE_HOR(1000)
+#define MOVE_UP MOVE_VERT(-1200)
+#define MOVE_DOWN MOVE_VERT(1200)
+#define MOVE_LEFT MOVE_HOR(-1200)
+#define MOVE_RIGHT MOVE_HOR(1200)
+
+&mmv { time-to-max-speed-ms = <500>; };
+
 // / {
 //  behaviors {
 //   /omit-if-no-ref/ mmv: behavior_mouse_move {
