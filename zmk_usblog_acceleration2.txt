@@ -1,0 +1,1111 @@
+02:45:22.293 -> [00:05:35.684,570] [0m<dbg> zmk.split_central_notify_func: [NOTIFICATION] data 0x20010dcb length 16[0m
+02:45:22.293 -> [00:05:35.684,631] [0m<dbg> zmk.peripheral_event_work_callback: Trigger key position state change for 34[0m
+02:45:22.340 -> [00:05:35.684,661] [0m<dbg> zmk.position_state_changed_listener: 34 bubble (no undecided hold_tap active)[0m
+02:45:22.340 -> [00:05:35.684,692] [0m<dbg> zmk.zmk_keymap_apply_position_state: layer: 0 position: 34, binding name: LAYER_TAP[0m
+02:45:22.386 -> [00:05:35.684,722] [0m<dbg> zmk.on_hold_tap_binding_pressed: 34 new undecided hold_tap[0m
+02:45:22.386 -> [00:05:35.884,948] [0m<dbg> zmk.decide_hold_tap: 34 decided hold-timer (tap-preferred decision moment timer)[0m
+02:45:22.386 -> [00:05:35.884,948] [0m<dbg> zmk.mo_keymap_binding_pressed: position 34 layer 6[0m
+02:45:22.431 -> [00:05:35.884,979] [0m<dbg> zmk.set_layer_state: layer_changed: layer 6 state 1[0m
+02:45:22.431 -> [00:05:35.885,009] [0m<dbg> zmk.set_layer_symbol: Layer changed to 6[0m
+02:45:22.431 -> [00:05:36.022,094] [0m<dbg> zmk.split_central_notify_func: [NOTIFICATION] data 0x20010dcb length 16[0m
+02:45:22.478 -> [00:05:36.022,155] [0m<dbg> zmk.peripheral_event_work_callback: Trigger key position state change for 20[0m
+02:45:22.478 -> [00:05:36.022,186] [0m<dbg> zmk.position_state_changed_listener: 20 bubble (no undecided hold_tap active)[0m
+02:45:22.525 -> [00:05:36.022,216] [0m<dbg> zmk.zmk_keymap_apply_position_state: layer: 6 position: 20, binding name: MOUSE_MOVE[0m
+02:45:22.525 -> [00:05:36.022,247] [0m<dbg> zmk.on_keymap_binding_pressed: position 20 keycode 0xfc18[0m
+02:45:22.525 -> [00:05:36.022,399] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:22.573 -> [00:05:36.022,399] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:22.573 -> [00:05:36.022,430] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:22.573 -> [00:05:36.022,460] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:22.621 -> [00:05:36.022,460] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:22.621 -> [00:05:36.022,491] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:22.621 -> [1;31m--- 3 messages dropped ---
+02:45:22.621 -> [0m[00:05:36.038,574] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:22.668 -> [1;31m--- 16 messages dropped ---
+02:45:22.668 -> [0m[00:05:36.062,530] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:22.668 -> [1;31m--- 18 messages dropped ---
+02:45:22.714 -> [0m[00:05:36.086,730] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:22.714 -> [1;31m--- 15 messages dropped ---
+02:45:22.714 -> [0m[00:05:36.110,778] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:22.714 -> [1;31m--- 19 messages dropped ---
+02:45:22.761 -> [0m[00:05:36.134,826] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:22.761 -> [1;31m--- 21 messages dropped ---
+02:45:22.761 -> [0m[00:05:36.158,935] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff9 0xfffffff8 [0m
+02:45:22.808 -> [1;31m--- 17 messages dropped ---
+02:45:22.808 -> [0m[00:05:36.182,952] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:22.808 -> [1;31m--- 15 messages dropped ---
+02:45:22.808 -> [0m[00:05:36.199,310] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:22.808 -> [1;31m--- 14 messages dropped ---
+02:45:22.855 -> [0m[00:05:36.223,083] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:22.855 -> [1;31m--- 14 messages dropped ---
+02:45:22.855 -> [0m[00:05:36.255,340] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:22.855 -> [1;31m--- 26 messages dropped ---
+02:45:22.901 -> [0m[00:05:36.271,484] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:22.901 -> [1;31m--- 17 messages dropped ---
+02:45:22.901 -> [0m[00:05:36.295,501] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:22.901 -> [1;31m--- 16 messages dropped ---
+02:45:22.947 -> [0m[00:05:36.319,549] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:22.947 -> [1;31m--- 18 messages dropped ---
+02:45:22.947 -> [0m[00:05:36.359,771] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:22.993 -> [1;31m--- 22 messages dropped ---
+02:45:22.993 -> [0m[00:05:36.383,819] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:22.993 -> [1;31m--- 18 messages dropped ---
+02:45:22.993 -> [0m[00:05:36.407,867] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:23.038 -> [1;31m--- 16 messages dropped ---
+02:45:23.038 -> [0m[00:05:36.432,006] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:23.038 -> [1;31m--- 18 messages dropped ---
+02:45:23.038 -> [0m[00:05:36.456,085] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:23.085 -> [1;31m--- 21 messages dropped ---
+02:45:23.085 -> [0m[00:05:36.480,255] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:23.085 -> [1;31m--- 18 messages dropped ---
+02:45:23.085 -> [0m[00:05:36.496,307] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:23.133 -> [1;31m--- 17 messages dropped ---
+02:45:23.133 -> [0m[00:05:36.528,289] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:23.133 -> [1;31m--- 22 messages dropped ---
+02:45:23.133 -> [0m[00:05:36.560,485] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:23.180 -> [1;31m--- 18 messages dropped ---
+02:45:23.180 -> [0m[00:05:36.584,533] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:23.180 -> [1;31m--- 13 messages dropped ---
+02:45:23.227 -> [0m[00:05:36.592,681] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:23.227 -> [00:05:36.600,463] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:23.227 -> [00:05:36.600,463] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:23.273 -> [00:05:36.600,524] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:23.273 -> [00:05:36.600,555] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:23.273 -> [00:05:36.600,585] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:23.319 -> [00:05:36.600,616] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:23.319 -> [00:05:36.608,612] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:23.319 -> [00:05:36.608,612] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:23.365 -> [00:05:36.608,673] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:23.365 -> [1;31m--- 8 messages dropped ---
+02:45:23.365 -> [0m[00:05:36.622,772] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:23.365 -> [1;31m--- 11 messages dropped ---
+02:45:23.412 -> [0m[00:05:36.640,777] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:23.412 -> [1;31m--- 17 messages dropped ---
+02:45:23.412 -> [0m[00:05:36.667,816] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:23.412 -> [1;31m--- 15 messages dropped ---
+02:45:23.412 -> [0m[00:05:36.682,189] [0m<dbg> zmk.peripheral_event_work_callback: Trigger key position state change for 32[0m
+02:45:23.460 -> [1;31m--- 18 messages dropped ---
+02:45:23.460 -> [0m[00:05:36.712,432] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:23.460 -> [1;31m--- 15 messages dropped ---
+02:45:23.460 -> [0m[00:05:36.720,977] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:23.508 -> [1;31m--- 13 messages dropped ---
+02:45:23.508 -> [0m[00:05:36.745,086] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:23.508 -> [1;31m--- 16 messages dropped ---
+02:45:23.508 -> [0m[00:05:36.769,287] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:23.555 -> [1;31m--- 20 messages dropped ---
+02:45:23.555 -> [0m[00:05:36.793,182] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:23.555 -> [00:05:36.793,182] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:23.603 -> [00:05:36.793,212] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:23.603 -> [00:05:36.801,147] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:23.603 -> [00:05:36.801,147] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:23.650 -> [00:05:36.801,208] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:23.650 -> [00:05:36.801,239] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:23.650 -> [00:05:36.801,269] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:23.697 -> [00:05:36.802,276] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:23.697 -> [00:05:36.802,703] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:23.697 -> [1;31m--- 8 messages dropped ---
+02:45:23.697 -> [0m[00:05:36.825,286] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:23.743 -> [1;31m--- 16 messages dropped ---
+02:45:23.743 -> [0m[00:05:36.841,400] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:23.743 -> [1;31m--- 12 messages dropped ---
+02:45:23.743 -> [0m[00:05:36.862,091] [0m<dbg> zmk.split_central_notify_func: [NOTIFICATION] data 0x20010dcb length 16[0m
+02:45:23.790 -> [1;31m--- 16 messages dropped ---
+02:45:23.790 -> [0m[00:05:36.881,469] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:23.790 -> [1;31m--- 17 messages dropped ---
+02:45:23.790 -> [0m[00:05:36.905,548] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:23.835 -> [1;31m--- 16 messages dropped ---
+02:45:23.835 -> [0m[00:05:37.079,681] [0m<dbg> zmk.zmk_keymap_apply_position_state: layer: 6 position: 20, binding name: MOUSE_MOVE[0m
+02:45:23.835 -> [1;31m--- 23 messages dropped ---
+02:45:23.835 -> [0m[00:05:37.103,912] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:23.882 -> [1;31m--- 9 messages dropped ---
+02:45:23.882 -> [0m[00:05:37.120,117] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:23.882 -> [1;31m--- 24 messages dropped ---
+02:45:23.928 -> [0m[00:05:37.152,191] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:23.928 -> [1;31m--- 10 messages dropped ---
+02:45:23.928 -> [0m[00:05:37.168,243] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:23.928 -> [1;31m--- 24 messages dropped ---
+02:45:23.974 -> [0m[00:05:37.207,336] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:23.974 -> [1;31m--- 10 messages dropped ---
+02:45:23.974 -> [0m[00:05:37.216,583] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:23.974 -> [1;31m--- 18 messages dropped ---
+02:45:24.021 -> [0m[00:05:37.240,600] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:24.021 -> [1;31m--- 15 messages dropped ---
+02:45:24.021 -> [0m[00:05:37.259,643] [0m<dbg> zmk.peripheral_event_work_callback: Trigger key position state change for 20[0m
+02:45:24.021 -> [1;31m--- 17 messages dropped ---
+02:45:24.066 -> [0m[00:05:37.433,105] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:24.066 -> [1;31m--- 15 messages dropped ---
+02:45:24.066 -> [0m[00:05:37.457,092] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:24.113 -> [1;31m--- 27 messages dropped ---
+02:45:24.113 -> [0m[00:05:37.481,384] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:24.113 -> [00:05:37.489,196] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:24.113 -> [00:05:37.489,196] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:24.159 -> [00:05:37.489,257] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:24.159 -> [00:05:37.489,257] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:24.159 -> [00:05:37.489,288] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:24.205 -> [00:05:37.489,318] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:24.205 -> [00:05:37.497,161] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:24.205 -> [00:05:37.497,161] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:24.251 -> [00:05:37.497,222] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:24.251 -> [00:05:37.497,253] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:24.251 -> [00:05:37.497,375] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:24.297 -> [00:05:37.497,436] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:24.297 -> [00:05:37.505,249] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:24.297 -> [00:05:37.505,249] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:24.344 -> [00:05:37.505,310] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:24.344 -> [00:05:37.505,340] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:24.344 -> [1;31m--- 13 messages dropped ---
+02:45:24.390 -> [0m[00:05:37.529,388] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:24.390 -> [1;31m--- 17 messages dropped ---
+02:45:24.390 -> [0m[00:05:37.553,405] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:24.390 -> [1;31m--- 16 messages dropped ---
+02:45:24.436 -> [0m[00:05:37.569,610] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:24.436 -> [1;31m--- 18 messages dropped ---
+02:45:24.436 -> [0m[00:05:37.601,531] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:24.436 -> [1;31m--- 11 messages dropped ---
+02:45:24.483 -> [0m[00:05:37.617,645] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:24.483 -> [1;31m--- 17 messages dropped ---
+02:45:24.483 -> [0m[00:05:37.641,723] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:24.483 -> [1;31m--- 17 messages dropped ---
+02:45:24.531 -> [0m[00:05:37.665,832] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:24.531 -> [1;31m--- 17 messages dropped ---
+02:45:24.531 -> [0m[00:05:37.689,880] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:24.531 -> [1;31m--- 16 messages dropped ---
+02:45:24.531 -> [0m[00:05:37.713,928] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:24.576 -> [1;31m--- 18 messages dropped ---
+02:45:24.576 -> [0m[00:05:37.746,002] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:24.576 -> [1;31m--- 16 messages dropped ---
+02:45:24.624 -> [0m[00:05:37.762,329] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:24.624 -> [1;31m--- 18 messages dropped ---
+02:45:24.624 -> [0m[00:05:37.792,358] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:24.624 -> [1;31m--- 15 messages dropped ---
+02:45:24.671 -> [0m[00:05:37.810,424] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:24.671 -> [1;31m--- 18 messages dropped ---
+02:45:24.671 -> [0m[00:05:38.069,702] [0m<dbg> zmk.zmk_keymap_apply_position_state: layer: 6 position: 32, binding name: MOUSE_MOVE[0m
+02:45:24.671 -> [1;31m--- 15 messages dropped ---
+02:45:24.718 -> [0m[00:05:38.085,968] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x07 0x08 [0m
+02:45:24.718 -> [1;31m--- 23 messages dropped ---
+02:45:24.718 -> [0m[00:05:38.118,103] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:24.765 -> [1;31m--- 17 messages dropped ---
+02:45:24.765 -> [0m[00:05:38.142,211] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:24.765 -> [1;31m--- 17 messages dropped ---
+02:45:24.765 -> [0m[00:05:38.166,290] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:24.813 -> [1;31m--- 17 messages dropped ---
+02:45:24.813 -> [0m[00:05:38.190,368] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:24.813 -> [1;31m--- 16 messages dropped ---
+02:45:24.813 -> [0m[00:05:38.214,324] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:24.859 -> [1;31m--- 18 messages dropped ---
+02:45:24.859 -> [0m[00:05:38.238,494] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:24.859 -> [1;31m--- 16 messages dropped ---
+02:45:24.859 -> [0m[00:05:38.262,542] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:24.905 -> [1;31m--- 18 messages dropped ---
+02:45:24.905 -> [0m[00:05:38.286,712] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:24.905 -> [1;31m--- 11 messages dropped ---
+02:45:24.905 -> [0m[00:05:38.302,642] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:24.953 -> [1;31m--- 23 messages dropped ---
+02:45:24.953 -> [0m[00:05:38.334,899] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:24.953 -> [1;31m--- 17 messages dropped ---
+02:45:24.953 -> [0m[00:05:38.358,825] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:24.999 -> [1;31m--- 17 messages dropped ---
+02:45:24.999 -> [0m[00:05:38.383,056] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:24.999 -> [1;31m--- 16 messages dropped ---
+02:45:24.999 -> [0m[00:05:38.407,073] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:25.045 -> [1;31m--- 24 messages dropped ---
+02:45:25.045 -> [0m[00:05:38.431,335] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:25.045 -> [1;31m--- 15 messages dropped ---
+02:45:25.045 -> [0m[00:05:38.455,200] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:25.091 -> [1;31m--- 18 messages dropped ---
+02:45:25.091 -> [0m[00:05:38.479,248] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:25.091 -> [1;31m--- 29 messages dropped ---
+02:45:25.091 -> [0m[00:05:38.519,500] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.138 -> [1;31m--- 19 messages dropped ---
+02:45:25.138 -> [0m[00:05:38.543,457] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:25.138 -> [1;31m--- 10 messages dropped ---
+02:45:25.138 -> [0m[00:05:38.559,722] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.184 -> [1;31m--- 18 messages dropped ---
+02:45:25.184 -> [0m[00:05:38.583,709] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.184 -> [1;31m--- 15 messages dropped ---
+02:45:25.184 -> [0m[00:05:38.607,818] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.231 -> [1;31m--- 19 messages dropped ---
+02:45:25.231 -> [0m[00:05:38.632,049] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.231 -> [1;31m--- 10 messages dropped ---
+02:45:25.231 -> [0m[00:05:38.648,193] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.231 -> [1;31m--- 17 messages dropped ---
+02:45:25.278 -> [0m[00:05:38.663,970] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.278 -> [1;31m--- 15 messages dropped ---
+02:45:25.278 -> [0m[00:05:38.687,957] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0xfffffff8 [0m
+02:45:25.278 -> [1;31m--- 19 messages dropped ---
+02:45:25.325 -> [0m[00:05:38.712,127] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.325 -> [1;31m--- 15 messages dropped ---
+02:45:25.325 -> [0m[00:05:38.737,731] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:25.325 -> [1;31m--- 18 messages dropped ---
+02:45:25.372 -> [0m[00:05:38.744,842] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:25.372 -> [1;31m--- 10 messages dropped ---
+02:45:25.372 -> [0m[00:05:38.768,402] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.372 -> [1;31m--- 18 messages dropped ---
+02:45:25.372 -> [0m[00:05:38.792,449] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:25.419 -> [1;31m--- 15 messages dropped ---
+02:45:25.419 -> [0m[00:05:38.812,225] [0m<dbg> zmk.position_state_changed_listener: 20 bubble (no undecided hold_tap active)[0m
+02:45:25.419 -> [1;31m--- 17 messages dropped ---
+02:45:25.419 -> [0m[00:05:38.828,247] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:25.466 -> [1;31m--- 15 messages dropped ---
+02:45:25.466 -> [0m[00:05:38.852,172] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:25.466 -> [1;31m--- 19 messages dropped ---
+02:45:25.513 -> [0m[00:05:38.876,220] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:25.513 -> [1;31m--- 17 messages dropped ---
+02:45:25.513 -> [0m[00:05:38.900,360] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:25.513 -> [1;31m--- 23 messages dropped ---
+02:45:25.560 -> [0m[00:05:38.932,464] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:25.560 -> [1;31m--- 17 messages dropped ---
+02:45:25.560 -> [0m[00:05:38.956,604] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:25.560 -> [1;31m--- 23 messages dropped ---
+02:45:25.607 -> [0m[00:05:38.988,677] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:25.607 -> [1;31m--- 17 messages dropped ---
+02:45:25.607 -> [0m[00:05:39.012,817] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:25.607 -> [1;31m--- 16 messages dropped ---
+02:45:25.654 -> [0m[00:05:39.036,895] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:25.654 -> [1;31m--- 18 messages dropped ---
+02:45:25.654 -> [0m[00:05:39.061,004] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:25.701 -> [1;31m--- 16 messages dropped ---
+02:45:25.701 -> [0m[00:05:39.084,930] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:25.701 -> [1;31m--- 18 messages dropped ---
+02:45:25.701 -> [0m[00:05:39.109,161] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:25.747 -> [1;31m--- 27 messages dropped ---
+02:45:25.747 -> [0m[00:05:39.149,444] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:25.747 -> [1;31m--- 25 messages dropped ---
+02:45:25.747 -> [0m[00:05:39.173,370] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:25.794 -> [1;31m--- 17 messages dropped ---
+02:45:25.794 -> [0m[00:05:39.205,505] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:25.794 -> [1;31m--- 17 messages dropped ---
+02:45:25.794 -> [0m[00:05:39.229,522] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:25.841 -> [1;31m--- 17 messages dropped ---
+02:45:25.841 -> [0m[00:05:39.253,662] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:25.841 -> [1;31m--- 15 messages dropped ---
+02:45:25.841 -> [0m[00:05:39.269,683] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:25.887 -> [1;31m--- 18 messages dropped ---
+02:45:25.887 -> [0m[00:05:39.293,792] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:25.887 -> [1;31m--- 21 messages dropped ---
+02:45:25.887 -> [0m[00:05:39.317,901] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:25.934 -> [1;31m--- 18 messages dropped ---
+02:45:25.934 -> [0m[00:05:39.341,949] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:25.934 -> [1;31m--- 15 messages dropped ---
+02:45:25.934 -> [0m[00:05:39.366,027] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:25.981 -> [1;31m--- 19 messages dropped ---
+02:45:25.981 -> [0m[00:05:39.390,228] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:25.981 -> [1;31m--- 15 messages dropped ---
+02:45:26.031 -> [0m[00:05:39.414,306] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:26.031 -> [1;31m--- 19 messages dropped ---
+02:45:26.031 -> [0m[00:05:39.438,293] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:26.031 -> [1;31m--- 27 messages dropped ---
+02:45:26.076 -> [0m[00:05:39.457,397] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:26.076 -> [1;31m--- 11 messages dropped ---
+02:45:26.076 -> [0m[00:05:39.478,485] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:26.076 -> [1;31m--- 17 messages dropped ---
+02:45:26.123 -> [0m[00:05:39.502,960] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:26.123 -> [1;31m--- 17 messages dropped ---
+02:45:26.123 -> [0m[00:05:39.526,672] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:26.123 -> [1;31m--- 17 messages dropped ---
+02:45:26.171 -> [0m[00:05:39.550,811] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:26.171 -> [1;31m--- 16 messages dropped ---
+02:45:26.171 -> [0m[00:05:39.574,920] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:26.171 -> [1;31m--- 24 messages dropped ---
+02:45:26.218 -> [0m[00:05:39.607,208] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:26.218 -> [1;31m--- 15 messages dropped ---
+02:45:26.218 -> [0m[00:05:39.623,107] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:26.218 -> [1;31m--- 18 messages dropped ---
+02:45:26.265 -> [0m[00:05:39.647,216] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:26.265 -> [1;31m--- 16 messages dropped ---
+02:45:26.265 -> [0m[00:05:39.671,356] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:26.265 -> [1;31m--- 18 messages dropped ---
+02:45:26.311 -> [0m[00:05:39.703,491] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:26.311 -> [1;31m--- 27 messages dropped ---
+02:45:26.311 -> [0m[00:05:39.728,271] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:26.311 -> [1;31m--- 19 messages dropped ---
+02:45:26.358 -> [0m[00:05:39.751,647] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:26.358 -> [1;31m--- 15 messages dropped ---
+02:45:26.358 -> [0m[00:05:39.775,604] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:26.358 -> [1;31m--- 18 messages dropped ---
+02:45:26.406 -> [0m[00:05:39.799,743] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:26.406 -> [1;31m--- 16 messages dropped ---
+02:45:26.406 -> [0m[00:05:39.823,852] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:26.406 -> [1;31m--- 24 messages dropped ---
+02:45:26.453 -> [0m[00:05:39.847,991] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:26.453 -> [1;31m--- 9 messages dropped ---
+02:45:26.453 -> [0m[00:05:39.872,009] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:26.500 -> [1;31m--- 25 messages dropped ---
+02:45:26.500 -> [0m[00:05:39.896,179] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:26.500 -> [1;31m--- 11 messages dropped ---
+02:45:26.500 -> [0m[00:05:39.920,227] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0xfffffff8 [0m
+02:45:26.547 -> [1;31m--- 27 messages dropped ---
+02:45:26.547 -> [0m[00:05:39.944,213] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:26.547 -> [1;31m--- 18 messages dropped ---
+02:45:26.547 -> [0m[00:05:39.968,444] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:26.594 -> [1;31m--- 11 messages dropped ---
+02:45:26.594 -> [0m[00:05:39.992,462] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0xfffffff8 [0m
+02:45:26.594 -> [1;31m--- 23 messages dropped ---
+02:45:26.594 -> [0m[00:05:40.016,571] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:26.641 -> [1;31m--- 13 messages dropped ---
+02:45:26.641 -> [0m[00:05:40.032,470] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:26.641 -> [1;31m--- 19 messages dropped ---
+02:45:26.641 -> [0m[00:05:40.056,762] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:26.688 -> [1;31m--- 14 messages dropped ---
+02:45:26.688 -> [0m[00:05:40.072,723] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:26.688 -> [1;31m--- 19 messages dropped ---
+02:45:26.688 -> [0m[00:05:40.096,862] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:26.735 -> [1;31m--- 23 messages dropped ---
+02:45:26.735 -> [0m[00:05:40.120,849] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:26.735 -> [1;31m--- 11 messages dropped ---
+02:45:26.735 -> [0m[00:05:40.152,954] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:26.782 -> [1;31m--- 23 messages dropped ---
+02:45:26.782 -> [0m[00:05:40.177,307] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:26.782 -> [1;31m--- 17 messages dropped ---
+02:45:26.782 -> [0m[00:05:40.201,324] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:26.828 -> [1;31m--- 17 messages dropped ---
+02:45:26.828 -> [0m[00:05:40.225,250] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:26.828 -> [1;31m--- 16 messages dropped ---
+02:45:26.828 -> [0m[00:05:40.241,363] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:26.875 -> [1;31m--- 17 messages dropped ---
+02:45:26.875 -> [0m[00:05:40.265,563] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:26.875 -> [1;31m--- 16 messages dropped ---
+02:45:26.875 -> [0m[00:05:40.281,524] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:26.922 -> [1;31m--- 24 messages dropped ---
+02:45:26.922 -> [0m[00:05:40.321,624] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:26.922 -> [1;31m--- 22 messages dropped ---
+02:45:26.922 -> [0m[00:05:40.353,790] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:26.969 -> [1;31m--- 18 messages dropped ---
+02:45:26.969 -> [0m[00:05:40.377,777] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:26.969 -> [1;31m--- 15 messages dropped ---
+02:45:27.022 -> [0m[00:05:40.402,038] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.022 -> [1;31m--- 19 messages dropped ---
+02:45:27.022 -> [0m[00:05:40.425,964] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:27.022 -> [1;31m--- 15 messages dropped ---
+02:45:27.022 -> [0m[00:05:40.450,134] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:27.074 -> [1;31m--- 27 messages dropped ---
+02:45:27.074 -> [0m[00:05:40.477,050] [0m<dbg> zmk.split_central_notify_func: [NOTIFICATION] data 0x20010dcb length 16[0m
+02:45:27.074 -> [00:05:40.477,142] [0m<dbg> zmk.peripheral_event_work_callback: Trigger key position state change for 32[0m
+02:45:27.124 -> [00:05:40.477,203] [0m<dbg> zmk.position_state_changed_listener: 32 bubble (no undecided hold_tap active)[0m
+02:45:27.124 -> [1;31m--- 8 messages dropped ---
+02:45:27.124 -> [0m[00:05:40.492,889] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:27.124 -> [1;31m--- 11 messages dropped ---
+02:45:27.174 -> [0m[00:05:40.506,256] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.174 -> [1;31m--- 15 messages dropped ---
+02:45:27.174 -> [0m[00:05:40.530,395] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:27.174 -> [1;31m--- 19 messages dropped ---
+02:45:27.174 -> [0m[00:05:40.554,473] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.202 -> [1;31m--- 15 messages dropped ---
+02:45:27.202 -> [0m[00:05:40.582,489] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:27.248 -> [1;31m--- 19 messages dropped ---
+02:45:27.248 -> [0m[00:05:40.602,661] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.248 -> [1;31m--- 15 messages dropped ---
+02:45:27.248 -> [0m[00:05:40.619,567] [0m<dbg> zmk.split_central_notify_func: [NOTIFICATION] data 0x20010dcb length 16[0m
+02:45:27.295 -> [1;31m--- 18 messages dropped ---
+02:45:27.295 -> [0m[00:05:40.634,765] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:27.295 -> [1;31m--- 9 messages dropped ---
+02:45:27.295 -> [0m[00:05:40.657,318] [0m<dbg> zmk.on_keymap_binding_released: position 31 keycode 0xfc180000[0m
+02:45:27.342 -> [1;31m--- 18 messages dropped ---
+02:45:27.342 -> [0m[00:05:40.674,926] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.342 -> [1;31m--- 15 messages dropped ---
+02:45:27.342 -> [0m[00:05:40.698,944] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.389 -> [1;31m--- 25 messages dropped ---
+02:45:27.389 -> [0m[00:05:40.731,079] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.389 -> [1;31m--- 10 messages dropped ---
+02:45:27.389 -> [0m[00:05:40.747,222] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.435 -> [1;31m--- 18 messages dropped ---
+02:45:27.435 -> [0m[00:05:40.771,270] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.435 -> [1;31m--- 15 messages dropped ---
+02:45:27.435 -> [0m[00:05:40.844,726] [0m<dbg> zmk.position_state_changed_listener: 33 bubble (no undecided hold_tap active)[0m
+02:45:27.482 -> [1;31m--- 17 messages dropped ---
+02:45:27.482 -> [0m[00:05:40.861,053] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:27.482 -> [1;31m--- 15 messages dropped ---
+02:45:27.482 -> [0m[00:05:40.885,253] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:27.528 -> [1;31m--- 19 messages dropped ---
+02:45:27.528 -> [0m[00:05:40.909,332] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:27.528 -> [1;31m--- 23 messages dropped ---
+02:45:27.528 -> [0m[00:05:40.941,467] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.574 -> [1;31m--- 17 messages dropped ---
+02:45:27.574 -> [0m[00:05:40.965,362] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:27.574 -> [1;31m--- 16 messages dropped ---
+02:45:27.574 -> [0m[00:05:40.981,506] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:27.622 -> [1;31m--- 18 messages dropped ---
+02:45:27.622 -> [0m[00:05:41.005,615] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:27.622 -> [1;31m--- 17 messages dropped ---
+02:45:27.622 -> [0m[00:05:41.032,470] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:27.669 -> [1;31m--- 11 messages dropped ---
+02:45:27.669 -> [0m[00:05:41.053,649] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:27.669 -> [1;31m--- 17 messages dropped ---
+02:45:27.669 -> [0m[00:05:41.077,911] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:27.716 -> [1;31m--- 16 messages dropped ---
+02:45:27.716 -> [0m[00:05:41.093,811] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:27.716 -> [1;31m--- 17 messages dropped ---
+02:45:27.716 -> [0m[00:05:41.118,011] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:27.763 -> [1;31m--- 16 messages dropped ---
+02:45:27.763 -> [0m[00:05:41.142,028] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:27.763 -> [1;31m--- 8 messages dropped ---
+02:45:27.763 -> [0m[00:05:41.142,089] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:27.763 -> [00:05:41.149,932] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:27.809 -> [00:05:41.149,932] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:27.809 -> [00:05:41.149,993] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:27.809 -> [00:05:41.150,024] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:27.855 -> [00:05:41.150,054] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.855 -> [00:05:41.158,081] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:27.855 -> [00:05:41.158,081] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:27.902 -> [00:05:41.158,142] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:27.902 -> [00:05:41.158,172] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:27.902 -> [00:05:41.158,203] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.949 -> [00:05:41.166,107] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:27.949 -> [1;31m--- 6 messages dropped ---
+02:45:27.949 -> [0m[00:05:41.174,163] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.996 -> [1;31m--- 16 messages dropped ---
+02:45:27.996 -> [0m[00:05:41.198,242] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:27.996 -> [1;31m--- 18 messages dropped ---
+02:45:27.996 -> [0m[00:05:41.214,447] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.044 -> [1;31m--- 9 messages dropped ---
+02:45:28.044 -> [0m[00:05:41.238,372] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.044 -> [1;31m--- 18 messages dropped ---
+02:45:28.044 -> [0m[00:05:41.257,843] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.044 -> [1;31m--- 15 messages dropped ---
+02:45:28.090 -> [0m[00:05:41.270,629] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:28.090 -> [1;31m--- 19 messages dropped ---
+02:45:28.090 -> [0m[00:05:41.302,856] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.090 -> [1;31m--- 9 messages dropped ---
+02:45:28.138 -> [0m[00:05:41.318,695] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:28.138 -> [1;31m--- 19 messages dropped ---
+02:45:28.138 -> [0m[00:05:41.347,564] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.138 -> [1;31m--- 15 messages dropped ---
+02:45:28.184 -> [0m[00:05:41.366,943] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.184 -> [1;31m--- 19 messages dropped ---
+02:45:28.184 -> [0m[00:05:41.390,899] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:28.184 -> [1;31m--- 10 messages dropped ---
+02:45:28.184 -> [0m[00:05:41.407,165] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.230 -> [1;31m--- 18 messages dropped ---
+02:45:28.230 -> [0m[00:05:41.437,469] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.230 -> [1;31m--- 15 messages dropped ---
+02:45:28.230 -> [0m[00:05:41.455,200] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:28.280 -> [1;31m--- 15 messages dropped ---
+02:45:28.280 -> [0m[00:05:41.467,193] [0m<dbg> zmk.position_state_changed_listener: 33 bubble (no undecided hold_tap active)[0m
+02:45:28.280 -> [1;31m--- 12 messages dropped ---
+02:45:28.280 -> [0m[00:05:41.678,131] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.323 -> [1;31m--- 38 messages dropped ---
+02:45:28.323 -> [0m[00:05:41.726,348] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.323 -> [1;31m--- 15 messages dropped ---
+02:45:28.323 -> [0m[00:05:41.750,488] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:28.368 -> [1;31m--- 19 messages dropped ---
+02:45:28.368 -> [0m[00:05:41.766,723] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.368 -> [1;31m--- 9 messages dropped ---
+02:45:28.368 -> [0m[00:05:41.797,546] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.415 -> [1;31m--- 19 messages dropped ---
+02:45:28.415 -> [0m[00:05:41.814,788] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.415 -> [1;31m--- 15 messages dropped ---
+02:45:28.415 -> [0m[00:05:41.842,895] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.461 -> [1;31m--- 13 messages dropped ---
+02:45:28.461 -> [0m[00:05:41.855,072] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.461 -> [1;31m--- 15 messages dropped ---
+02:45:28.461 -> [0m[00:05:41.879,028] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:28.508 -> [1;31m--- 19 messages dropped ---
+02:45:28.508 -> [0m[00:05:41.903,137] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.508 -> [1;31m--- 15 messages dropped ---
+02:45:28.508 -> [0m[00:05:41.932,464] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:28.555 -> [1;31m--- 19 messages dropped ---
+02:45:28.555 -> [0m[00:05:41.951,232] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.555 -> [1;31m--- 10 messages dropped ---
+02:45:28.555 -> [0m[00:05:41.975,341] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:28.602 -> [1;31m--- 18 messages dropped ---
+02:45:28.602 -> [0m[00:05:41.999,450] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:28.602 -> [1;31m--- 20 messages dropped ---
+02:45:28.602 -> [0m[00:05:42.023,742] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:28.648 -> [1;31m--- 19 messages dropped ---
+02:45:28.648 -> [0m[00:05:42.030,456] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:28.648 -> [1;31m--- 22 messages dropped ---
+02:45:28.648 -> [0m[00:05:42.062,652] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:28.694 -> [1;31m--- 17 messages dropped ---
+02:45:28.694 -> [0m[00:05:42.078,735] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:28.694 -> [1;31m--- 17 messages dropped ---
+02:45:28.694 -> [0m[00:05:42.102,783] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.741 -> [1;31m--- 11 messages dropped ---
+02:45:28.741 -> [0m[00:05:42.126,861] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:28.741 -> [1;31m--- 17 messages dropped ---
+02:45:28.741 -> [0m[00:05:42.151,031] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:28.789 -> [1;31m--- 17 messages dropped ---
+02:45:28.789 -> [0m[00:05:42.174,957] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:28.789 -> [1;31m--- 17 messages dropped ---
+02:45:28.789 -> [0m[00:05:42.207,214] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.834 -> [1;31m--- 28 messages dropped ---
+02:45:28.834 -> [0m[00:05:42.239,318] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:28.834 -> [1;31m--- 24 messages dropped ---
+02:45:28.834 -> [0m[00:05:42.271,484] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:28.881 -> [1;31m--- 15 messages dropped ---
+02:45:28.881 -> [0m[00:05:42.295,410] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:28.881 -> [1;31m--- 23 messages dropped ---
+02:45:28.881 -> [0m[00:05:42.327,575] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:28.927 -> [1;31m--- 22 messages dropped ---
+02:45:28.927 -> [0m[00:05:42.359,558] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:28.927 -> [1;31m--- 23 messages dropped ---
+02:45:28.927 -> [0m[00:05:42.383,758] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0x00 [0m
+02:45:28.973 -> [1;31m--- 22 messages dropped ---
+02:45:28.973 -> [0m[00:05:42.415,802] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:28.973 -> [1;31m--- 24 messages dropped ---
+02:45:28.973 -> [0m[00:05:42.448,120] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0x00 [0m
+02:45:29.020 -> [1;31m--- 22 messages dropped ---
+02:45:29.020 -> [0m[00:05:42.480,072] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:29.020 -> [1;31m--- 24 messages dropped ---
+02:45:29.020 -> [0m[00:05:42.512,329] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:29.067 -> [1;31m--- 20 messages dropped ---
+02:45:29.067 -> [0m[00:05:42.536,254] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:29.067 -> [1;31m--- 25 messages dropped ---
+02:45:29.067 -> [0m[00:05:42.560,546] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:29.114 -> [1;31m--- 21 messages dropped ---
+02:45:29.114 -> [0m[00:05:42.576,904] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:29.114 -> [1;31m--- 13 messages dropped ---
+02:45:29.114 -> [0m[00:05:42.592,773] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:29.161 -> [1;31m--- 15 messages dropped ---
+02:45:29.161 -> [0m[00:05:42.608,764] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:29.161 -> [1;31m--- 19 messages dropped ---
+02:45:29.161 -> [0m[00:05:42.624,908] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:29.207 -> [1;31m--- 10 messages dropped ---
+02:45:29.207 -> [0m[00:05:42.640,838] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:29.207 -> [1;31m--- 15 messages dropped ---
+02:45:29.207 -> [0m[00:05:42.656,921] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:29.255 -> [1;31m--- 14 messages dropped ---
+02:45:29.255 -> [0m[00:05:42.665,283] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:29.255 -> [1;31m--- 23 messages dropped ---
+02:45:29.255 -> [0m[00:05:42.697,387] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:29.255 -> [1;31m--- 11 messages dropped ---
+02:45:29.302 -> [0m[00:05:42.705,261] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:29.302 -> [1;31m--- 17 messages dropped ---
+02:45:29.302 -> [0m[00:05:42.721,435] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:29.302 -> [1;31m--- 16 messages dropped ---
+02:45:29.302 -> [0m[00:05:42.737,304] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:29.348 -> [1;31m--- 12 messages dropped ---
+02:45:29.348 -> [0m[00:05:42.753,448] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffb 0x00 [0m
+02:45:29.348 -> [1;31m--- 17 messages dropped ---
+02:45:29.348 -> [0m[00:05:42.769,561] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:29.395 -> [1;31m--- 17 messages dropped ---
+02:45:29.395 -> [0m[00:05:42.793,548] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:29.395 -> [1;31m--- 16 messages dropped ---
+02:45:29.395 -> [0m[00:05:42.809,722] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:29.441 -> [1;31m--- 24 messages dropped ---
+02:45:29.441 -> [0m[00:05:42.833,892] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:29.441 -> [1;31m--- 16 messages dropped ---
+02:45:29.441 -> [0m[00:05:42.857,727] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:29.488 -> [1;31m--- 18 messages dropped ---
+02:45:29.488 -> [0m[00:05:42.881,866] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:29.488 -> [1;31m--- 15 messages dropped ---
+02:45:29.538 -> [0m[00:05:42.906,036] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:29.538 -> [1;31m--- 18 messages dropped ---
+02:45:29.538 -> [0m[00:05:42.930,053] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:29.538 -> [1;31m--- 24 messages dropped ---
+02:45:29.582 -> [0m[00:05:42.968,872] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:29.582 -> [1;31m--- 11 messages dropped ---
+02:45:29.582 -> [0m[00:05:43.002,410] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:29.629 -> [1;31m--- 41 messages dropped ---
+02:45:29.629 -> [0m[00:05:43.034,393] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:29.629 -> [1;31m--- 16 messages dropped ---
+02:45:29.629 -> [0m[00:05:43.058,502] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:29.675 -> [1;31m--- 18 messages dropped ---
+02:45:29.675 -> [0m[00:05:43.082,580] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:29.675 -> [1;31m--- 16 messages dropped ---
+02:45:29.675 -> [0m[00:05:43.106,506] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:29.722 -> [1;31m--- 18 messages dropped ---
+02:45:29.722 -> [0m[00:05:43.130,676] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:29.722 -> [1;31m--- 15 messages dropped ---
+02:45:29.722 -> [0m[00:05:43.146,697] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:29.769 -> [1;31m--- 18 messages dropped ---
+02:45:29.769 -> [0m[00:05:43.170,898] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:29.769 -> [1;31m--- 15 messages dropped ---
+02:45:29.769 -> [0m[00:05:43.194,976] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:29.816 -> [1;31m--- 19 messages dropped ---
+02:45:29.816 -> [0m[00:05:43.219,024] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:29.816 -> [1;31m--- 23 messages dropped ---
+02:45:29.816 -> [0m[00:05:43.259,124] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:29.862 -> [1;31m--- 22 messages dropped ---
+02:45:29.862 -> [0m[00:05:43.283,294] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:29.862 -> [1;31m--- 18 messages dropped ---
+02:45:29.909 -> [0m[00:05:43.307,312] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:29.909 -> [1;31m--- 15 messages dropped ---
+02:45:29.909 -> [0m[00:05:43.313,079] [0m<dbg> zmk.split_central_notify_func: [NOTIFICATION] data 0x20010dcb length 16[0m
+02:45:29.955 -> [1;31m--- 16 messages dropped ---
+02:45:29.955 -> [0m[00:05:43.331,359] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:29.955 -> [1;31m--- 15 messages dropped ---
+02:45:29.955 -> [0m[00:05:43.355,468] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:30.002 -> [1;31m--- 25 messages dropped ---
+02:45:30.002 -> [0m[00:05:43.379,577] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:30.002 -> [1;31m--- 23 messages dropped ---
+02:45:30.002 -> [0m[00:05:43.411,712] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:30.048 -> [1;31m--- 11 messages dropped ---
+02:45:30.048 -> [0m[00:05:43.435,699] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:30.048 -> [1;31m--- 17 messages dropped ---
+02:45:30.048 -> [0m[00:05:43.459,960] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:30.095 -> [1;31m--- 17 messages dropped ---
+02:45:30.095 -> [0m[00:05:43.483,795] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:30.095 -> [1;31m--- 17 messages dropped ---
+02:45:30.095 -> [0m[00:05:43.508,209] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:30.143 -> [1;31m--- 23 messages dropped ---
+02:45:30.143 -> [0m[00:05:43.540,039] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:30.143 -> [1;31m--- 17 messages dropped ---
+02:45:30.143 -> [0m[00:05:43.559,753] [0m<dbg> zmk.position_state_changed_listener: 32 bubble (no undecided hold_tap active)[0m
+02:45:30.189 -> [1;31m--- 15 messages dropped ---
+02:45:30.189 -> [0m[00:05:43.580,078] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:30.189 -> [1;31m--- 15 messages dropped ---
+02:45:30.189 -> [0m[00:05:43.597,900] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:30.236 -> [1;31m--- 15 messages dropped ---
+02:45:30.236 -> [0m[00:05:43.628,417] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:30.236 -> [1;31m--- 34 messages dropped ---
+02:45:30.236 -> [0m[00:05:43.668,579] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:30.283 -> [1;31m--- 16 messages dropped ---
+02:45:30.283 -> [0m[00:05:43.700,561] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:30.283 -> [1;31m--- 24 messages dropped ---
+02:45:30.283 -> [0m[00:05:43.717,254] [0m<dbg> zmk.zmk_keymap_apply_position_state: layer: 6 position: 32, binding name: MOUSE_MOVE[0m
+02:45:30.330 -> [1;31m--- 15 messages dropped ---
+02:45:30.330 -> [0m[00:05:43.740,722] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:30.330 -> [1;31m--- 18 messages dropped ---
+02:45:30.330 -> [0m[00:05:43.764,862] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:30.377 -> [1;31m--- 15 messages dropped ---
+02:45:30.377 -> [0m[00:05:43.788,879] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:30.377 -> [1;31m--- 19 messages dropped ---
+02:45:30.377 -> [0m[00:05:43.813,079] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:30.423 -> [1;31m--- 17 messages dropped ---
+02:45:30.423 -> [0m[00:05:43.837,249] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:30.423 -> [1;31m--- 22 messages dropped ---
+02:45:30.423 -> [0m[00:05:43.861,419] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0xfffffff8 [0m
+02:45:30.470 -> [1;31m--- 23 messages dropped ---
+02:45:30.470 -> [0m[00:05:43.885,345] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:30.470 -> [1;31m--- 16 messages dropped ---
+02:45:30.517 -> [0m[00:05:43.909,515] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:30.517 -> [1;31m--- 12 messages dropped ---
+02:45:30.517 -> [0m[00:05:43.933,593] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:30.517 -> [1;31m--- 15 messages dropped ---
+02:45:30.564 -> [0m[00:05:43.949,615] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:30.564 -> [1;31m--- 17 messages dropped ---
+02:45:30.564 -> [0m[00:05:43.973,754] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:30.564 -> [1;31m--- 22 messages dropped ---
+02:45:30.611 -> [0m[00:05:43.994,750] [0m<dbg> zmk.position_state_changed_listener: 20 bubble (no undecided hold_tap active)[0m
+02:45:30.611 -> [1;31m--- 29 messages dropped ---
+02:45:30.611 -> [0m[00:05:44.029,968] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:30.611 -> [1;31m--- 9 messages dropped ---
+02:45:30.658 -> [0m[00:05:44.046,173] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:30.658 -> [1;31m--- 19 messages dropped ---
+02:45:30.658 -> [0m[00:05:44.078,369] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:30.658 -> [1;31m--- 21 messages dropped ---
+02:45:30.705 -> [0m[00:05:44.102,264] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:30.705 -> [1;31m--- 15 messages dropped ---
+02:45:30.705 -> [0m[00:05:44.118,499] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:30.705 -> [1;31m--- 17 messages dropped ---
+02:45:30.753 -> [0m[00:05:44.150,604] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:30.753 -> [1;31m--- 26 messages dropped ---
+02:45:30.753 -> [0m[00:05:44.166,687] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:30.799 -> [1;31m--- 17 messages dropped ---
+02:45:30.799 -> [0m[00:05:44.190,765] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:30.799 -> [1;31m--- 22 messages dropped ---
+02:45:30.799 -> [0m[00:05:44.222,808] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:30.847 -> [1;31m--- 18 messages dropped ---
+02:45:30.847 -> [0m[00:05:44.246,978] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:30.847 -> [1;31m--- 10 messages dropped ---
+02:45:30.847 -> [0m[00:05:44.271,148] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x08 [0m
+02:45:30.894 -> [1;31m--- 23 messages dropped ---
+02:45:30.894 -> [0m[00:05:44.287,536] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:30.894 -> [1;31m--- 15 messages dropped ---
+02:45:30.894 -> [0m[00:05:44.311,187] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0x08 [0m
+02:45:30.940 -> [1;31m--- 30 messages dropped ---
+02:45:30.940 -> [0m[00:05:44.351,440] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:30.940 -> [1;31m--- 15 messages dropped ---
+02:45:30.940 -> [0m[00:05:44.375,579] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:30.987 -> [1;31m--- 24 messages dropped ---
+02:45:30.987 -> [0m[00:05:44.399,658] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:30.987 -> [1;31m--- 17 messages dropped ---
+02:45:30.987 -> [0m[00:05:44.431,701] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:31.035 -> [1;31m--- 17 messages dropped ---
+02:45:31.035 -> [0m[00:05:44.453,338] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:31.035 -> [1;31m--- 11 messages dropped ---
+02:45:31.035 -> [0m[00:05:44.463,897] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:31.082 -> [1;31m--- 17 messages dropped ---
+02:45:31.082 -> [0m[00:05:44.487,915] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.082 -> [1;31m--- 17 messages dropped ---
+02:45:31.082 -> [0m[00:05:44.512,023] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:31.127 -> [1;31m--- 16 messages dropped ---
+02:45:31.127 -> [0m[00:05:44.528,045] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.127 -> [1;31m--- 17 messages dropped ---
+02:45:31.127 -> [0m[00:05:44.552,124] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0xfffffff8 [0m
+02:45:31.174 -> [1;31m--- 17 messages dropped ---
+02:45:31.174 -> [0m[00:05:44.576,232] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0xfffffff8 [0m
+02:45:31.174 -> [1;31m--- 22 messages dropped ---
+02:45:31.174 -> [0m[00:05:44.600,433] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0xfffffff8 [0m
+02:45:31.220 -> [1;31m--- 14 messages dropped ---
+02:45:31.220 -> [0m[00:05:44.624,298] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:31.220 -> [1;31m--- 20 messages dropped ---
+02:45:31.220 -> [0m[00:05:44.640,472] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:31.267 -> [1;31m--- 14 messages dropped ---
+02:45:31.267 -> [0m[00:05:44.656,402] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.267 -> [1;31m--- 13 messages dropped ---
+02:45:31.267 -> [0m[00:05:44.680,572] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:31.313 -> [1;31m--- 20 messages dropped ---
+02:45:31.313 -> [0m[00:05:44.704,620] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.313 -> [1;31m--- 19 messages dropped ---
+02:45:31.360 -> [0m[00:05:44.728,668] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.360 -> [1;31m--- 17 messages dropped ---
+02:45:31.360 -> [0m[00:05:44.752,838] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.360 -> [1;31m--- 17 messages dropped ---
+02:45:31.406 -> [0m[00:05:44.776,916] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.406 -> [1;31m--- 17 messages dropped ---
+02:45:31.406 -> [0m[00:05:44.800,994] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:31.452 -> [1;31m--- 16 messages dropped ---
+02:45:31.452 -> [0m[00:05:44.824,951] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.452 -> [1;31m--- 24 messages dropped ---
+02:45:31.452 -> [0m[00:05:44.849,395] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:31.452 -> [1;31m--- 17 messages dropped ---
+02:45:31.499 -> [0m[00:05:44.881,286] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.499 -> [1;31m--- 17 messages dropped ---
+02:45:31.499 -> [0m[00:05:44.905,426] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.545 -> [1;31m--- 16 messages dropped ---
+02:45:31.545 -> [0m[00:05:44.929,473] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.545 -> [1;31m--- 24 messages dropped ---
+02:45:31.545 -> [0m[00:05:44.953,735] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:31.591 -> [1;31m--- 10 messages dropped ---
+02:45:31.591 -> [0m[00:05:44.977,661] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:31.591 -> [1;31m--- 24 messages dropped ---
+02:45:31.591 -> [0m[00:05:45.009,826] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.638 -> [1;31m--- 27 messages dropped ---
+02:45:31.638 -> [0m[00:05:45.050,079] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.638 -> [1;31m--- 19 messages dropped ---
+02:45:31.638 -> [0m[00:05:45.074,218] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.685 -> [1;31m--- 17 messages dropped ---
+02:45:31.685 -> [0m[00:05:45.098,205] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.685 -> [1;31m--- 17 messages dropped ---
+02:45:31.685 -> [0m[00:05:45.122,314] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.731 -> [1;31m--- 17 messages dropped ---
+02:45:31.731 -> [0m[00:05:45.146,392] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:31.731 -> [1;31m--- 16 messages dropped ---
+02:45:31.777 -> [0m[00:05:45.162,597] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.777 -> [1;31m--- 17 messages dropped ---
+02:45:31.777 -> [0m[00:05:45.186,737] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0xfffffff8 [0m
+02:45:31.777 -> [1;31m--- 26 messages dropped ---
+02:45:31.825 -> [0m[00:05:45.210,723] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:31.825 -> [1;31m--- 19 messages dropped ---
+02:45:31.825 -> [0m[00:05:45.242,858] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:31.871 -> [1;31m--- 15 messages dropped ---
+02:45:31.871 -> [0m[00:05:45.266,906] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:31.871 -> [1;31m--- 19 messages dropped ---
+02:45:31.871 -> [0m[00:05:45.291,107] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.918 -> [1;31m--- 17 messages dropped ---
+02:45:31.918 -> [0m[00:05:45.315,246] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0xfffffff8 [0m
+02:45:31.918 -> [1;31m--- 16 messages dropped ---
+02:45:31.918 -> [0m[00:05:45.331,268] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:31.965 -> [1;31m--- 16 messages dropped ---
+02:45:31.965 -> [0m[00:05:45.347,412] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:31.965 -> [1;31m--- 17 messages dropped ---
+02:45:31.965 -> [0m[00:05:45.371,307] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:32.013 -> [1;31m--- 17 messages dropped ---
+02:45:32.013 -> [0m[00:05:45.395,568] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.013 -> [1;31m--- 16 messages dropped ---
+02:45:32.013 -> [0m[00:05:45.411,560] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x00 [0m
+02:45:32.059 -> [1;31m--- 18 messages dropped ---
+02:45:32.059 -> [0m[00:05:45.435,791] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.059 -> [1;31m--- 11 messages dropped ---
+02:45:32.059 -> [0m[00:05:45.459,747] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:32.106 -> [1;31m--- 17 messages dropped ---
+02:45:32.106 -> [0m[00:05:45.483,917] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.106 -> [1;31m--- 22 messages dropped ---
+02:45:32.106 -> [0m[00:05:45.516,021] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.152 -> [1;31m--- 17 messages dropped ---
+02:45:32.152 -> [0m[00:05:45.532,318] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.152 -> [1;31m--- 16 messages dropped ---
+02:45:32.152 -> [0m[00:05:45.548,187] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:32.199 -> [1;31m--- 24 messages dropped ---
+02:45:32.199 -> [0m[00:05:45.588,317] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:32.199 -> [1;31m--- 16 messages dropped ---
+02:45:32.199 -> [0m[00:05:45.604,431] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:32.246 -> [1;31m--- 18 messages dropped ---
+02:45:32.246 -> [0m[00:05:45.636,566] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x08 0x08 [0m
+02:45:32.246 -> [1;31m--- 23 messages dropped ---
+02:45:32.246 -> [0m[00:05:45.676,666] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.292 -> [1;31m--- 25 messages dropped ---
+02:45:32.292 -> [0m[00:05:45.708,862] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:32.292 -> [1;31m--- 21 messages dropped ---
+02:45:32.292 -> [0m[00:05:45.740,875] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.339 -> [1;31m--- 25 messages dropped ---
+02:45:32.339 -> [0m[00:05:45.758,453] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:32.339 -> [1;31m--- 13 messages dropped ---
+02:45:32.339 -> [0m[00:05:45.789,184] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.386 -> [1;31m--- 25 messages dropped ---
+02:45:32.386 -> [0m[00:05:45.821,350] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.386 -> [1;31m--- 20 messages dropped ---
+02:45:32.386 -> [0m[00:05:45.847,808] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:32.386 -> [1;31m--- 25 messages dropped ---
+02:45:32.433 -> [0m[00:05:45.869,506] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:32.433 -> [1;31m--- 13 messages dropped ---
+02:45:32.433 -> [0m[00:05:45.893,432] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0x00 [0m
+02:45:32.480 -> [1;31m--- 32 messages dropped ---
+02:45:32.480 -> [0m[00:05:45.925,628] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:32.480 -> [1;31m--- 13 messages dropped ---
+02:45:32.480 -> [0m[00:05:45.957,702] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0x00 0x00 [0m
+02:45:32.526 -> [1;31m--- 32 messages dropped ---
+02:45:32.526 -> [0m[00:05:45.981,811] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:32.526 -> [1;31m--- 13 messages dropped ---
+02:45:32.526 -> [0m[00:05:46.005,798] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.572 -> [1;31m--- 25 messages dropped ---
+02:45:32.572 -> [0m[00:05:46.022,125] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.572 -> [1;31m--- 14 messages dropped ---
+02:45:32.572 -> [0m[00:05:46.038,055] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.572 -> [1;31m--- 11 messages dropped ---
+02:45:32.619 -> [0m[00:05:46.053,924] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.619 -> [1;31m--- 14 messages dropped ---
+02:45:32.619 -> [0m[00:05:46.072,845] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:32.619 -> [1;31m--- 23 messages dropped ---
+02:45:32.665 -> [0m[00:05:46.094,177] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.665 -> [1;31m--- 18 messages dropped ---
+02:45:32.665 -> [0m[00:05:46.102,355] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.665 -> [00:05:46.110,229] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.712 -> [00:05:46.110,260] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:32.712 -> [00:05:46.110,290] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:32.712 -> [00:05:46.110,321] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:32.758 -> [1;31m--- 5 messages dropped ---
+02:45:32.758 -> [0m[00:05:46.118,255] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.758 -> [00:05:46.118,255] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:32.805 -> [00:05:46.118,316] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:32.805 -> [00:05:46.118,347] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:32.805 -> [00:05:46.118,408] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffe 0x00 [0m
+02:45:32.805 -> [00:05:46.118,408] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:32.853 -> [00:05:46.118,438] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.853 -> [00:05:46.118,682] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:32.853 -> [00:05:46.126,251] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.900 -> [00:05:46.126,281] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:32.900 -> [00:05:46.126,312] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:32.900 -> [00:05:46.126,342] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:32.948 -> [00:05:46.126,403] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffe 0x00 [0m
+02:45:32.948 -> [00:05:46.126,403] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:32.948 -> [00:05:46.126,434] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:32.994 -> [00:05:46.126,464] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:32.994 -> [00:05:46.134,338] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:32.994 -> [00:05:46.134,368] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:33.041 -> [00:05:46.134,399] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.041 -> [00:05:46.134,429] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.041 -> [00:05:46.134,460] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffe 0x00 [0m
+02:45:33.041 -> [00:05:46.134,490] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:33.089 -> [00:05:46.134,521] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:33.089 -> [00:05:46.134,552] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:33.089 -> [00:05:46.142,242] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:33.135 -> [00:05:46.142,242] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:33.135 -> [00:05:46.142,303] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.135 -> [00:05:46.142,333] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.182 -> [00:05:46.142,364] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffd 0x00 [0m
+02:45:33.182 -> [00:05:46.142,395] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:33.182 -> [00:05:46.142,425] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:33.229 -> [00:05:46.142,456] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:33.229 -> [00:05:46.150,268] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:33.229 -> [00:05:46.150,299] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:33.276 -> [00:05:46.150,329] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.276 -> [00:05:46.150,360] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.276 -> [00:05:46.150,390] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffe 0x00 [0m
+02:45:33.322 -> [00:05:46.150,421] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:33.322 -> [00:05:46.150,451] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:33.322 -> [00:05:46.158,416] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:33.368 -> [00:05:46.158,416] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:33.368 -> [00:05:46.158,477] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.368 -> [00:05:46.158,508] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.368 -> [00:05:46.158,538] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffd 0x00 [0m
+02:45:33.415 -> [00:05:46.158,569] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:33.415 -> [00:05:46.158,599] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:33.415 -> [00:05:46.162,567] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:33.462 -> [00:05:46.162,811] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:33.462 -> [00:05:46.166,442] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:33.462 -> [00:05:46.166,442] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:33.508 -> [00:05:46.166,503] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.508 -> [00:05:46.166,534] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.508 -> [00:05:46.166,564] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffc 0x00 [0m
+02:45:33.556 -> [00:05:46.166,595] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:33.556 -> [00:05:46.166,625] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:33.556 -> [00:05:46.166,656] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:33.603 -> [00:05:46.174,407] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:33.603 -> [00:05:46.174,407] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:33.603 -> [00:05:46.174,468] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.651 -> [00:05:46.174,499] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.651 -> [00:05:46.174,530] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffd 0x00 [0m
+02:45:33.651 -> [00:05:46.174,560] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:33.651 -> [00:05:46.174,591] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:33.698 -> [00:05:46.174,621] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:33.698 -> [00:05:46.182,556] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:33.698 -> [00:05:46.182,556] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:33.744 -> [00:05:46.182,617] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.744 -> [00:05:46.182,617] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.744 -> [00:05:46.182,678] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffc 0x00 [0m
+02:45:33.791 -> [00:05:46.182,678] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:33.791 -> [00:05:46.182,708] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:33.791 -> [00:05:46.182,769] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:33.836 -> [00:05:46.190,582] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:33.836 -> [00:05:46.190,582] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:33.836 -> [00:05:46.190,643] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.884 -> [00:05:46.190,673] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.884 -> [00:05:46.190,704] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffc 0x00 [0m
+02:45:33.884 -> [00:05:46.190,734] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:33.930 -> [00:05:46.190,765] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:33.930 -> [00:05:46.198,577] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:33.930 -> [00:05:46.198,577] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:33.977 -> [00:05:46.198,638] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.977 -> [00:05:46.198,638] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:33.977 -> [00:05:46.198,699] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffb 0x00 [0m
+02:45:33.977 -> [00:05:46.198,699] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:34.024 -> [00:05:46.198,730] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:34.024 -> [00:05:46.206,573] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:34.024 -> [00:05:46.206,604] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:34.071 -> [00:05:46.206,634] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.071 -> [00:05:46.206,665] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.071 -> [00:05:46.206,695] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffb 0x00 [0m
+02:45:34.118 -> [00:05:46.206,726] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:34.118 -> [00:05:46.206,756] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:34.118 -> [00:05:46.207,458] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:34.164 -> [00:05:46.207,885] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:34.164 -> [00:05:46.208,312] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:34.164 -> [00:05:46.214,660] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:34.211 -> [00:05:46.214,660] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:34.211 -> [00:05:46.214,721] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.211 -> [00:05:46.214,752] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.211 -> [00:05:46.214,782] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffb 0x00 [0m
+02:45:34.257 -> [00:05:46.214,813] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:34.257 -> [00:05:46.214,843] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:34.303 -> [00:05:46.214,874] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:34.303 -> [00:05:46.222,656] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:34.303 -> [00:05:46.222,656] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:34.303 -> [00:05:46.222,717] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.351 -> [00:05:46.222,747] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.351 -> [00:05:46.222,778] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffb 0x00 [0m
+02:45:34.351 -> [00:05:46.222,778] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:34.398 -> [00:05:46.222,808] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:34.398 -> [00:05:46.222,839] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:34.398 -> [00:05:46.230,712] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:34.444 -> [00:05:46.230,743] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:34.444 -> [00:05:46.230,773] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.444 -> [00:05:46.230,804] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.491 -> [00:05:46.230,834] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffa 0x00 [0m
+02:45:34.491 -> [00:05:46.230,865] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:34.491 -> [00:05:46.230,895] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:34.538 -> [00:05:46.230,926] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:34.538 -> [00:05:46.238,739] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:34.538 -> [00:05:46.238,739] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:34.584 -> [00:05:46.238,800] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.584 -> [00:05:46.238,830] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.584 -> [00:05:46.238,861] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff9 0x00 [0m
+02:45:34.584 -> [00:05:46.238,891] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:34.631 -> [00:05:46.238,922] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:34.631 -> [00:05:46.246,704] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:34.631 -> [00:05:46.246,734] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:34.676 -> [00:05:46.246,765] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.676 -> [00:05:46.246,795] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.676 -> [00:05:46.246,826] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffffa 0x00 [0m
+02:45:34.724 -> [00:05:46.246,856] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:34.724 -> [00:05:46.246,887] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:34.724 -> [00:05:46.252,410] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:34.770 -> [00:05:46.252,838] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:34.770 -> [00:05:46.254,730] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:34.770 -> [00:05:46.254,760] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:34.816 -> [00:05:46.254,791] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.816 -> [00:05:46.254,821] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.816 -> [00:05:46.254,882] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff9 0x00 [0m
+02:45:34.862 -> [00:05:46.254,882] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:34.862 -> [00:05:46.254,913] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:34.862 -> [00:05:46.254,943] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:34.909 -> [00:05:46.262,725] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:34.909 -> [00:05:46.262,725] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:34.909 -> [00:05:46.262,756] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.909 -> [00:05:46.262,786] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:34.956 -> [00:05:46.262,847] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:34.956 -> [00:05:46.262,847] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:34.956 -> [00:05:46.262,878] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.003 -> [00:05:46.262,908] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.003 -> [00:05:46.270,721] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.003 -> [00:05:46.270,721] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.050 -> [00:05:46.270,782] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:35.050 -> [00:05:46.270,812] [0m<dbg> zmk.powf: falling back to integer exponent 2[0m
+02:45:35.050 -> [00:05:46.270,843] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff9 0x00 [0m
+02:45:35.098 -> [00:05:46.270,874] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.098 -> [00:05:46.270,904] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.098 -> [00:05:46.270,935] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.144 -> [00:05:46.278,808] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.144 -> [00:05:46.278,839] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.144 -> [00:05:46.278,869] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:35.192 -> [00:05:46.278,900] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.192 -> [00:05:46.278,930] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.192 -> [00:05:46.286,865] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.238 -> [00:05:46.286,895] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.238 -> [00:05:46.286,926] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:35.238 -> [00:05:46.286,956] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.285 -> [00:05:46.286,987] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.285 -> [00:05:46.294,921] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.285 -> [00:05:46.294,921] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.332 -> [00:05:46.294,982] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:35.332 -> [00:05:46.295,013] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.332 -> [00:05:46.295,013] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.378 -> [00:05:46.297,393] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.378 -> [00:05:46.297,821] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.378 -> [00:05:46.302,917] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.424 -> [00:05:46.302,947] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.424 -> [00:05:46.302,978] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:35.424 -> [00:05:46.303,009] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.471 -> [00:05:46.303,039] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.471 -> [00:05:46.310,974] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.471 -> [00:05:46.310,974] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.518 -> [00:05:46.311,035] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:35.518 -> [00:05:46.311,065] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.518 -> [00:05:46.311,157] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.570 -> [00:05:46.318,908] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.570 -> [00:05:46.318,908] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.570 -> [00:05:46.318,969] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:35.612 -> [00:05:46.319,000] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.612 -> [00:05:46.319,030] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.612 -> [00:05:46.327,056] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.661 -> [00:05:46.327,056] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.661 -> [00:05:46.327,148] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:35.661 -> [00:05:46.327,148] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.709 -> [00:05:46.327,178] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.709 -> [00:05:46.335,083] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.709 -> [00:05:46.335,083] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.757 -> [00:05:46.335,144] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:35.757 -> [00:05:46.335,174] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.757 -> [00:05:46.335,205] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.798 -> [00:05:46.342,407] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.798 -> [00:05:46.342,834] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.798 -> [00:05:46.343,231] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.844 -> [00:05:46.343,231] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.844 -> [00:05:46.343,292] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:35.844 -> [00:05:46.343,322] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:35.891 -> [00:05:46.343,353] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:35.891 -> [00:05:46.343,475] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.891 -> [00:05:46.343,902] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.938 -> [00:05:46.344,360] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.938 -> [00:05:46.344,787] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.938 -> [00:05:46.345,245] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:35.985 -> [00:05:46.351,165] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:35.985 -> [00:05:46.351,196] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:35.985 -> [00:05:46.351,257] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:36.031 -> [00:05:46.351,287] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:36.031 -> [00:05:46.351,287] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:36.031 -> [00:05:46.351,348] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:36.077 -> [00:05:46.359,191] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:36.077 -> [00:05:46.359,191] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:36.077 -> [00:05:46.359,252] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:36.125 -> [00:05:46.359,283] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:36.125 -> [00:05:46.359,313] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:36.125 -> [00:05:46.359,344] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:36.171 -> [00:05:46.367,126] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:36.171 -> [00:05:46.367,156] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:36.171 -> [00:05:46.367,187] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:36.218 -> [00:05:46.367,218] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:36.218 -> [00:05:46.367,248] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:36.218 -> [00:05:46.367,279] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:36.264 -> [00:05:46.375,122] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:36.264 -> [00:05:46.375,122] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:36.264 -> [00:05:46.375,183] [0m<dbg> zmk.zmk_hid_mouse_movement_update: Mouse movement updated to 0xfffffff8 0x00 [0m
+02:45:36.310 -> [00:05:46.375,213] [0m<dbg> zmk.zmk_hid_mouse_scroll_update: Mouse scroll updated to 0x00 0x00 [0m
+02:45:36.310 -> [00:05:46.375,244] [0m<dbg> zmk.zmk_endpoints_send_mouse_report: SENDING MOUSE REPORT[0m
+02:45:36.310 -> [00:05:46.379,608] [0m<dbg> zmk.split_central_notify_func: [NOTIFICATION] data 0x20010dcb length 16[0m
+02:45:36.356 -> [00:05:46.379,699] [0m<dbg> zmk.peripheral_event_work_callback: Trigger key position state change for 31[0m
+02:45:36.356 -> [00:05:46.379,730] [0m<dbg> zmk.position_state_changed_listener: 31 bubble (no undecided hold_tap active)[0m
+02:45:36.403 -> [00:05:46.379,791] [0m<dbg> zmk.zmk_keymap_apply_position_state: layer: 6 position: 31, binding name: MOUSE_MOVE[0m
+02:45:36.403 -> [00:05:46.379,821] [0m<dbg> zmk.on_keymap_binding_released: position 31 keycode 0xfc180000[0m
+02:45:36.403 -> [00:05:46.379,943] [0m<dbg> zmk.zmk_hid_mouse_movement_set: Mouse movement set to 0x00 0x00 [0m
+02:45:36.448 -> [00:05:46.379,943] [0m<dbg> zmk.zmk_hid_mouse_scroll_set: Mouse scroll set to 0x00 0x00 [0m
+02:45:36.448 -> [00:05:46.387,512] [0m<dbg> zmk.destination_connection: Address pointer 0x200094f2[0m
+02:45:36.448 -> [00:05:46.454,589] [0m<dbg> zmk.split_central_notify_func: [NOTIFICATION] data 0x20010dcb length 16[0m
+02:45:36.493 -> [00:05:46.454,681] [0m<dbg> zmk.peripheral_event_work_callback: Trigger key position state change for 34[0m
+02:45:36.493 -> [00:05:46.454,711] [0m<dbg> zmk.position_state_changed_listener: 34 bubble (no undecided hold_tap active)[0m
+02:45:36.493 -> [00:05:46.454,742] [0m<dbg> zmk.zmk_keymap_apply_position_state: layer: 0 position: 34, binding name: LAYER_TAP[0m
+02:45:36.539 -> [00:05:46.454,803] [0m<dbg> zmk.mo_keymap_binding_released: position 34 layer 6[0m
+02:45:36.539 -> [00:05:46.454,803] [0m<dbg> zmk.set_layer_state: layer_changed: layer 6 state 0[0m
+02:45:36.539 -> [00:05:46.454,833] [0m<dbg> zmk.set_layer_symbol: Layer changed to 0[0m
+02:45:36.586 -> [00:05:46.455,200] [0m<dbg> zmk.on_hold_tap_binding_released: 34 cleaning up hold-tap[0m

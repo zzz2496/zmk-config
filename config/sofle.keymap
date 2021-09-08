@@ -51,8 +51,8 @@
    label = "MOUSE_MOVE";
    #binding-cells = <1>;
    delay-ms = <0>;
-   time-to-max-speed-ms = <1000>;
-   acceleration-exponent = <2000>; 
+   time-to-max-speed-ms = <800>;
+   acceleration-exponent = <2>; 
   };
  };
 };
@@ -63,8 +63,8 @@
    label = "MOUSE_SCROLL";
    #binding-cells = <1>;
    delay-ms = <0>;
-   time-to-max-speed-ms = <1000>;
-   acceleration-exponent = <1000>;
+   time-to-max-speed-ms = <800>;
+   acceleration-exponent = <1>;
   };
  };
 };
