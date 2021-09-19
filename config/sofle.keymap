@@ -179,7 +179,7 @@
 &trans      &kp LA(LEFT)    &kp LC(LEFT)    &none           &kp LC(RIGHT)   &kp ENTER       &trans  &trans  &trans          &trans          &trans          &trans      &trans      &trans
                             &kp C_PREV      &kp C_PP        &kp C_NEXT      &trans          &trans  &none   &none           &kp C_PP        &kp C_VOL_DN    &kp C_VOL_UP
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
+            sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp RIGHT LEFT>;
         };
         
         _MOUSE_RIGHT {
