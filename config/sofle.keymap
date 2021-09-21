@@ -45,8 +45,8 @@
 #define MOVE_LEFT MOVE_HOR(-1200)
 #define MOVE_RIGHT MOVE_HOR(1200)
 
-&mmv { time-to-max-speed-ms = <500>; };
-&mwh { time-to-max-speed-ms = <4000>; };
+// &mmv { time-to-max-speed-ms = <500>; };
+// &mwh { time-to-max-speed-ms = <4000>; };
 
 // / {
 //  behaviors {
