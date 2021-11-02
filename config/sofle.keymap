@@ -37,17 +37,17 @@
 
 
 &mmv {
-    time-to-max-speed-ms = <600>;
+    time-to-max-speed-ms = <450>;
     acceleration-exponent = <1>;
 };
 
 &mwh {
-    time-to-max-speed-ms = <3500>;
+    time-to-max-speed-ms = <1000>;
     acceleration-exponent = <1>;
 };
 
-#define U_MOUSE_MOVE_MAX 1300
-#define U_MOUSE_SCROLL_MAX 100
+#define U_MOUSE_MOVE_MAX 1800
+#define U_MOUSE_SCROLL_MAX 160
 
 #undef MOVE_UP
 #undef MOVE_DOWN
@@ -87,7 +87,7 @@
             bindings = <
 &lt _CONFIG GRAVE   &kp N1          &kp N2      &kp N3      &kp N4      &kp N5                                                                  &kp N6                  &kp N7      &kp N8              &kp N9              &kp N0                  &lt _CONFIG MINUS
 &lt _FUNCTION TAB   &kp Q           &kp W       &kp E       &kp R       &kp T                                                                   &kp Y                   &kp U       &kp I               &kp O               &kp P                   &kp BSPC
-&mt LEFT_SHIFT ESC  &lt _NUMPAD A   &kp S       &kp D       &kp F       &kp G                                                                   &kp H                   &kp J       &kp K               &kp L               &lt _MOUSE_RIGHT  SEMI  &mt RIGHT_SHIFT ENTER
+&mt LEFT_SHIFT ESC  &kp A           &kp S       &kp D       &kp F       &kp G                                                                   &kp H                   &kp J       &kp K               &kp L               &lt _MOUSE_RIGHT  SEMI  &mt RIGHT_SHIFT ENTER
 &kp LEFT_SHIFT      &kp Z           &kp X       &kp C       &kp V       &kp B       &tog _REMOTE                &tog _NUMPAD                    &kp N                   &kp M       &kp COMMA           &kp DOT             &kp FSLH                &mt RIGHT_SHIFT BSLH
                                     &kp LGUI    &kp LALT    &kp LCTRL   &kp SPACE   &lt _ARROWS_LEFT BACKSPACE  &lt _NUMPAD SINGLE_QUOTE        &lt _ARROWS_RIGHT SPACE &kp RCTRL   &kp LEFT_BRACKET    &kp RIGHT_BRACKET
             >;
@@ -167,11 +167,11 @@
 //               |     |      |      |      |        |  |       |      |       |       |      |
             label = "<<< NAV";
             bindings = <
-&trans      &kp N0          &kp N9          &kp N8          &kp N7          &kp N6                          &trans          &trans          &trans          &trans      &trans      &trans
+&trans      &trans          &kp C_PREV      &kp C_PP        &kp C_NEXT      &kp N6                          &trans          &trans          &trans          &trans      &trans      &trans
 &trans      &trans          &kp HOME        &kp UP          &kp END         &kp Y                           &trans          &trans          &trans          &trans      &trans      &trans
 &kp CAPS    &trans          &kp LEFT        &kp DOWN        &kp RIGHT       &kp H                           &trans          &trans          &trans          &trans      &trans      &trans
 &trans      &kp LA(LEFT)    &kp LC(LEFT)    &none           &kp LC(RIGHT)   &kp ENTER       &trans  &trans  &trans          &trans          &trans          &trans      &trans      &trans
-                            &kp C_PREV      &kp C_PP        &kp C_NEXT      &trans          &trans  &none   &none           &kp C_PP        &kp C_VOL_DN    &kp C_VOL_UP
+                            &trans          &trans          &trans          &trans          &trans  &none   &none           &kp C_PP        &kp C_VOL_DN    &kp C_VOL_UP
             >;
             sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp RIGHT LEFT>;
         };
